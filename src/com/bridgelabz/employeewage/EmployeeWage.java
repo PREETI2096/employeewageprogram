@@ -16,7 +16,7 @@ public class EmployeeWage {
 		
 		for(int day = 0; day <= 20; day ++) {
 		Random random = new Random();
-		int attendance = random.nextInt(2);
+		int attendance = random.nextInt(3);
 		
 		switch(attendance) { 
 		case IS_PART_TIME  :
