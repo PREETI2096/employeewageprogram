@@ -9,8 +9,8 @@ public class EmployeeWage {
 	public static final int MAX_HOURS_IN_MONTH = 100;
 
 	public static void main(String[] args) {
+           System.out.println("Welcome to Employee wage computation program");
 		System.out.println("Welcome to Employee wage computation program");
-		
 		int empHour = 0;
 		int totalEmpHours = 0;
 		int totalWorkingDays = 0;
