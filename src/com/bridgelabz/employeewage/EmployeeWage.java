@@ -30,7 +30,7 @@ public class EmployeeWage {
 		case IS_FULL_TIME :
 			empHour = 8;
 			System.out.println(" full time");
-			break;
+			break;	     
 	    default: 
 			empHour = 0;
 			System.out.println(" Absent");
