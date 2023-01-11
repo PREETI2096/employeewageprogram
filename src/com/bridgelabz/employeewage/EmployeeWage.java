@@ -31,7 +31,6 @@ public class EmployeeWage {
 			empHour = 8;
 			System.out.println(" full time");
 			break;
-			
 	    default: 
 			empHour = 0;
 			System.out.println(" Absent");
