@@ -29,7 +29,7 @@ public class EmployeeWage {
 	     	empHour = 4;
 	     	System.out.println("Part time");
 			break;
-			
+      
 	    default: 
 			empHour = 0;
 			System.out.println(" Absent");
@@ -41,4 +41,10 @@ public class EmployeeWage {
 		System.out.println("Total Employee wage:" + totalEmpWage);
 		return totalEmpWage;
 	}
+}
+public static void main(String[] args) {
+	System.out.println("Welcome to Employee wage computation program");
+       EmployeeWage employeewage = new EmployeeWage();	
+       employeewage.wage();
+}
 }
