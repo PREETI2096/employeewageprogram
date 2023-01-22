@@ -29,7 +29,7 @@ public class EmployeeWage {
 	     	empHour = 4;
 	     	System.out.println("part time");
 			break;
-			
+      
 	    default: 
 			empHour = 0;
 			System.out.println(" Absent");
